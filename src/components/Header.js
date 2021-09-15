@@ -11,8 +11,8 @@ const Header = (props) => {
     </NavLink>
     <p className="navTitle">{props.page}</p>
     <div className="navAction">
-      <GearFill className="navIcon" size={20} />
       <MicFill className="navIcon" size={20} />
+      <GearFill className="navIcon" size={20} />
     </div>
   </div>
   );
