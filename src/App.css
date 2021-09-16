@@ -1,0 +1,98 @@
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem 0 1rem;
+  background-color: rgb(211, 29, 114);
+}
+
+.navBack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.navTitle {
+  color: white;
+  font-size: 16px;
+}
+
+.navAction {
+  margin: 1rem 0 0 0;
+  color: white;
+}
+
+.navIcon {
+  padding: 0 5px 0 0;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0;
+}
+
+.country {
+  background-color: rgb(211, 29, 114);
+  position: relative;
+  height: 200px;
+  display: flex;
+}
+
+.dark {
+  background-color: rgb(196, 0, 91);
+}
+
+.light {
+  background-color: rgb(211, 29, 114);
+}
+
+.countryName {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.countryName h2 {
+  margin: 0;
+}
+
+.countryName p {
+  margin: 0;
+}
+
+.countryImg {
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  position: absolute;
+}
+
+.arrow {
+  padding: 10px;
+}
+
+.regions {
+  margin: 0;
+  color: white;
+}
+
+.region {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
