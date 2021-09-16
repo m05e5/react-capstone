@@ -8,6 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [netlify](https://61433cb6649244f00871f90d--hicoro.netlify.app/)
 
+## Live demo
+
+- Here is a short [LiveDemo](https://www.loom.com/share/49e65014b24a4772a41db8cdd2c859fa)
+
 ## Languages and tools
 
 - HTML
