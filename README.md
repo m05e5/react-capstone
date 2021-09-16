@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## deployment linke
 
-- [netlify](https://612cb78114147c9cbf2db7d0--moses-math-magicians.netlify.app/)
+- [netlify](https://61433cb6649244f00871f90d--hicoro.netlify.app/)
 
 ## Languages and tools
 
