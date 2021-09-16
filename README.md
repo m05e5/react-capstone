@@ -1,6 +1,6 @@
 # Hi-Coro
 
-![screenshot](./assets/Capture.PNG)
+![screenshot](./src/assets/Capture.PNG)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
