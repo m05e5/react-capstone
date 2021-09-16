@@ -1,3 +1,4 @@
+/* eslint-disable no-case-declarations */
 const ADD_COUNTRY = 'react-capstone/home/ADD_COUNTRY';
 const CLEAR_STATE = 'react-capstone/home/CLEAR_STATE';
 const FILTER_REGION = 'react-capstone/home/FILTER_REGION';
@@ -10,12 +11,12 @@ export const addCountry = (payload) => ({
 
 export const clearState = () => ({
   type: CLEAR_STATE,
-  payload: []
+  payload: [],
 });
 
 export const filterRegion = (id) => ({
   type: FILTER_REGION,
-  id
+  id,
 });
 
 const reducer = (state = initialState, action) => {
@@ -25,10 +26,7 @@ const reducer = (state = initialState, action) => {
     case CLEAR_STATE:
       return action.payload;
     case FILTER_REGION:
-      console.log(action.id)
-      const country = state.filter(countryy => countryy.id === action.id)
-      console.log('33333333333333333333333333333');
-      console.log(country);
+      const country = state.filter((countryy) => countryy.id === action.id);
       return [country[0]];
     default:
       return state;

@@ -63,8 +63,8 @@ ul {
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .countryName h2 {
@@ -80,6 +80,10 @@ ul {
   width: 100%;
   opacity: 0.2;
   position: absolute;
+}
+
+.arrow {
+  padding: 10px;
 }
 
 .regions {
