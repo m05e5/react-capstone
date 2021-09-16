@@ -21,7 +21,7 @@ const Regions = () => {
           <p>in 2020-03-22</p>
         </div>
       </div>
-      <p className={style.mid}>STATES BY COUNTRY</p>
+      <p className={style.mid}>Stated by Regions</p>
       <ul className="regions">
         {state[0].regions.map((region, index) => (
           <li key={region.id} className={index % 2 === 0 ? 'region light' : 'dark region '}>
